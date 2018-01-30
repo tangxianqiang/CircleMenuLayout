@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:circles="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tang.circlemenulayout.MainActivity"
+    android:background="#a0a5ff"
+    android:gravity="right|bottom"
+    >
+    <com.tang.circlemenulayout.widget.CircleMenuLayout
+        android:id="@+id/circle_menu"
+        android:layout_width="370dp"
+        android:layout_height="370dp"
+        android:layout_marginRight="-126dp"
+        android:background="#00000000"
+        circles:circles_padding="44dp"
+        circles:out_item_radius="42dp"
+        circles:in_text_height="24dp"
+
+        >
+        <include
+            layout="@layout/view_circle_center"/>
+    </com.tang.circlemenulayout.widget.CircleMenuLayout>
+
+
+
+</LinearLayout>

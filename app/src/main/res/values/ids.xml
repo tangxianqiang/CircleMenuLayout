@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--中心点文字-->
+    <item name="id_center_text" type="id"/>
+    <!--外圆整个布局的id-->
+    <item name="id_out_item" type="id"/>
+    <!--中心点整个布局-->
+    <item name="id_center_content" type="id"/>
+    <!--外圈内容-->
+    <item name="out_item_content" type="id"/>
+    <!--外圈title-->
+    <item name="out_item_title" type="id"/>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--圆形菜单-->
+    <declare-styleable name="circles">
+        <attr name="circles_padding" format="dimension"/>
+        <attr name="out_item_radius" format="dimension"/>
+        <attr name="in_text_height" format="dimension"/>
+    </declare-styleable>
+
+</resources>
