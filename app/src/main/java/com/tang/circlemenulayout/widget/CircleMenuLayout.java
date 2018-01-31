@@ -333,7 +333,7 @@ public class CircleMenuLayout extends ViewGroup {
                     @Override
                     public void onClick(View v) {
                         if (listener!=null) {
-                            listener.onItemOutClick(findDisease(v));
+                            listener.onItemOutClick(findEntity(v));
                         }
                     }
                 });
@@ -342,7 +342,7 @@ public class CircleMenuLayout extends ViewGroup {
                     public boolean onLongClick(View v) {
 
 //                        if (listener!=null) {
-//                            listener.onItemOutLongClick(findDisease(v));
+//                            listener.onItemOutLongClick(findEntity(v));
 //                        }
                         return false;
                     }
@@ -405,11 +405,11 @@ public class CircleMenuLayout extends ViewGroup {
     }
 
     /**
-     * 获取点击外圈的病害
+     * 获取点击外圈的内容实体
      * @param v
      * @return
      */
-    private ChildBean findDisease(View v){
+    private ChildBean findEntity(View v){
         ChildBean childBean = null;
         TextView title = (TextView) v.findViewById(R.id.out_item_title);
         TextView content = (TextView) v.findViewById(R.id.out_item_content);
